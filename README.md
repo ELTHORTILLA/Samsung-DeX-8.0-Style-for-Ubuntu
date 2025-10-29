@@ -18,7 +18,7 @@ Transforma tu escritorio **Ubuntu 24.04 GNOME** en un entorno visual tipo **Sams
 
 
 ```bash
-wget -O ~/dex8_setup.sh https://raw.githubusercontent.com/ThortiDev/dex8-theme/main/dex8_setup.sh
+wget -O ~/dex8_setup.sh https://github.com/ELTHORTILLA/Samsung-DeX-8.0-Style-for-Ubuntu.git
 chmod +x ~/dex8_setup.sh
 ./dex8_setup.sh
 
