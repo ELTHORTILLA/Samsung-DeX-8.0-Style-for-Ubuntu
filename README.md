@@ -1,64 +1,35 @@
-# Samsung DeX 8.0 Style for Ubuntu
+# 🖥️ Samsung DeX 8.0 Style for Ubuntu
 
-Transforma tu escritorio **Ubuntu 24.04 GNOME** en un entorno visual tipo **Samsung DeX 8.0**, con barra inferior translúcida, menú de aplicaciones estilo Android y estética moderna.
-
----
-
-## ✨ Características
-- Tema **Orchis Dark** (One UI look)  
-- Íconos **WhiteSur Dark**  
-- Dock inferior con **Dash to Panel**  
-- Menú tipo launcher con **Arc Menu**  
-- Efecto vidrio con **Blur My Shell**  
-- Interfaz limpia mediante **Just Perfection**
+Convierte tu escritorio **Ubuntu GNOME** en una interfaz moderna similar a **Samsung DeX 8.0**, con una barra inferior translúcida, menú tipo launcher, temas oscuros y animaciones suaves.
 
 ---
 
-## ⚙️ Instalación rápida
+## ✨ Características principales
 
+- 🪟 **Tema GTK:** [Orchis-Dark](https://github.com/vinceliuice/Orchis-theme)
+- 🎨 **Iconos:** [WhiteSur-Dark](https://github.com/vinceliuice/WhiteSur-icon-theme)
+- 🧩 **Extensiones GNOME:**
+  - Dash to Panel → Panel inferior tipo DeX  
+  - Arc Menu → Menú launcher personalizado  
+  - Blur My Shell → Efecto vidrio translúcido  
+  - Just Perfection → Interfaz limpia sin top bar
+
+---
+
+## ⚙️ Requisitos
+
+- Ubuntu 22.04 o 24.04 LTS (GNOME Shell ≥ 46)
+- Permisos sudo
+- Conexión a Internet
+
+---
+
+## 🚀 Instalación rápida
+
+Copia y ejecuta **un solo bloque** en la terminal:
 
 ```bash
-wget -O ~/dex8_setup.sh https://github.com/ELTHORTILLA/Samsung-DeX-8.0-Style-for-Ubuntu.git
+wget -O ~/dex8_setup.sh https://raw.githubusercontent.com/ELTHORTILLA/Samsung-DeX-8.0-Style-for-Ubuntu/main/dex8_setup.sh
 chmod +x ~/dex8_setup.sh
 ./dex8_setup.sh
-
-```
-
-Después de la instalación:
-
-Reinicia GNOME (Alt + F2, escribe r) o cierra sesión.
-
-Selecciona GNOME on Xorg en la pantalla de login.
-
----
-
-🧩 Requisitos
-
-Ubuntu 24.04 LTS (GNOME 46+)
-
-Conexión a Internet
-
-Permisos sudo
-
-
----
-
-🖌️ Ajustes opcionales
-
-Usa GNOME Tweaks o Extension Manager para personalizar temas, iconos y comportamiento de extensiones.
-
----
-
-Desinstalación
-🧹 Desinstalación
-
-```bash
-gnome-extensions enable ubuntu-dock@ubuntu.com
-sudo rm -rf /usr/share/themes/Orchis*
-sudo rm -rf /usr/share/icons/WhiteSur*
-bash
-```
-
----
-Autor: ThortiDev
-Licencia: MIT
+bash```
