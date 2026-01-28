@@ -57,7 +57,7 @@ Reinicia GNOME (Alt + F2, escribe r, Enter) o cierra sesión.
 
 🖼️ Vista previa
 
-(Agrega aquí capturas del escritorio DeX una vez configurado.)
+
 
 🔄 Desinstalación / Restaurar Ubuntu original
 ```bash
